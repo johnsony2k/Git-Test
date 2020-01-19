@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Table" max_length="40" name="x_23839_git_test_test_table" type="collection">
+        <element label="Group" max_length="100" name="group" reference="sys_user" type="reference"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="Test" max_length="40" name="test" type="string"/>
+        <index name="index">
+            <element name="group"/>
+        </index>
+    </element>
+</database>
